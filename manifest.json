@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Casino Blocker",
+  "version": "1.0",
+  "description": "Bloqueia o acesso a sites de cassino e apostas online",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["dist/background.js"],
+    "persistent": true
+  }
+}
